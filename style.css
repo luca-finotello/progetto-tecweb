@@ -1,0 +1,59 @@
+*{
+
+padding: 0em;
+margin: 0em;
+
+}
+
+#logo{
+	float:left;
+	position:relative;
+}
+
+#descrizione{
+	text-align:center;
+	position:relative;
+	
+}
+
+#path{
+
+background-color: #222222;
+color: #FFFFFF;
+text-align: left;
+padding-left: 0.5 em;
+
+}
+
+#menu{
+width: 100%;
+float: left;
+
+}
+
+#menu ul{
+text-align: center;
+
+}
+
+#menu ul li{
+	
+display: inline-table;
+
+}
+
+#menu li{
+list-style: none;
+
+}
+
+
+
+#footer{
+
+clear: both;
+background : #222222;
+color: #FFFFFF;
+text-align: center;
+
+}
