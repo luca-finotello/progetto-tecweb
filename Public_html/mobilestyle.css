@@ -1,0 +1,77 @@
+
+/*VALIDARE CON W3C VALIDATOR E CON CSS 2.1 (EVENTUALMENTE CON L'OPZIONE Warnings : All) */
+
+
+*{
+padding: 0em;
+margin: 0em;
+font-family: Arial , Helvetica , sans-serif;
+}
+
+
+#path{
+
+background-color: #222222;
+color: #FFFFFF;
+text-align: left;
+padding-left: 0.5em;
+
+}
+
+#menu{
+width: 70%;
+float: left;
+
+}
+
+#menu ul{
+text-align: center;
+
+}
+
+#menu ul li{
+	
+display: inline;
+
+}
+
+#menu li{
+list-style: none;
+
+}
+
+
+
+#footer{
+
+clear: both;
+background : #222222;
+color: #FFFFFF;
+text-align: center;
+
+}
+
+
+
+a:link{
+
+/*background-color:   se questa proprietà é assente => validatore W3c solleva warning (se Warnings : All ) */
+color: #000099;
+
+}
+
+
+a:hover{
+
+/*background-color:   se questa proprietà é assente => validatore W3c solleva warning (se Warnings : All ) */
+color: #000099;
+font-variant: small-caps;
+
+}
+
+a:visited{
+
+/*background-color:   se questa proprietà é assente => validatore W3c solleva warning (se Warnings : All ) */
+color: #AA00AA;
+
+}

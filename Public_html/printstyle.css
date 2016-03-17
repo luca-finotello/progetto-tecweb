@@ -1,0 +1,50 @@
+
+/*VALIDARE CON W3C VALIDATOR E CON CSS 2.1 (EVENTUALMENTE CON L'OPZIONE Warnings : All) */
+
+
+*{
+padding: 0em;
+margin: 0em;
+font-family: Arial , Helvetica , sans-serif;
+}
+
+
+#path{
+
+text-align: left;
+padding-left: 0.5em;
+
+}
+
+#menu{
+	
+display: none; /* per non visualizzare i link presenti nella pagina */
+
+width: 70%;
+float: left;
+
+}
+
+#menu ul{
+text-align: center;
+
+}
+
+#menu ul li{
+	
+display: inline;
+
+}
+
+#menu li{
+list-style: none;
+
+}
+
+
+#footer{
+
+clear: both;
+text-align: center;
+
+}
