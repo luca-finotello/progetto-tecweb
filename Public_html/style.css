@@ -26,21 +26,55 @@ display:block;
 }
 
 #path{
-padding: 0em;
+padding: 0.5em;
 margin: 0em;
 background-color: #222222;
 color: #FFFFFF;
 text-align: left;
-padding-left: 0.5em;
-padding:1em;
+padding-left: 1em;
+}
+#menu ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	width:10%;
+	text-align: center;
+	float:left;
 }
 
-.menu li{
-	display: block;
-	float: left;
-	width: 24.8%;
+#menu ul li{
+	position:relative;
+	border:1px solid;
+	color:#000000;
+}
+
+/*#menu  li ul{
+	position:absolute;
+	left:20%;
+	top:0;
+	display:none;
+}*/
+
+#menu ul li a{
+	display:block;
+	text-decoration:none;
+	color:black;
+	background: -webkit-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -webkit-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -moz-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -o-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -ms-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	padding:5%;
+}
+
+#menu li:hover ul{
+display:block;
+}
+
+/*.menu li{
+	width: 10%;
 	height: 5%;
-	line-height: 200%;
+	line-height: 150%;
 	text-align: center;
 	color:#000000;
 	border: 1px solid;
@@ -72,13 +106,12 @@ padding:1em;
 	border-top: 1px dotted #2C3E50;
 }
 .sub-menu li :hover{
-	width: 50%;
 	background: -webkit-radial-gradient(center, ellipse cover, #f7fbfc 10%, #add9e4 100%);
 	background: -webkit-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
 	background: -moz-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
 	background: -o-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
 	background: -ms-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
-}
+}*/
 
 /* Home */
 
@@ -90,11 +123,12 @@ padding:1em;
 
 /* libri*/
 
-.tabella{
-	border-style:solid;
-	border-color:black;
-	border-width:1px;
+#libro{
+
 }
+
+.immagine{
+	float:left;}
 
 
 /* fine libri*/
@@ -105,6 +139,7 @@ div#contatti {
     width: 60%;
     height: 60%;
 	margin:0 auto;
+	padding-bottom:1%;
 }
 
 .info{
@@ -115,7 +150,7 @@ div#contatti {
 	padding-left:3%;
 	padding-right:3%;
 	margin-bottom:1%;
-	margin-top:15%;	
+	margin-top:8%;	
 	text-align:center;
 	padding-left:3%;
 	padding-right:3%;
@@ -148,6 +183,7 @@ div#contatti {
 	padding-left:30%;
 	padding-right:30%;
 	margin-bottom:1%;
+	margin-top:5%;
 }
 
 /* fine registrazione*/
@@ -172,7 +208,7 @@ div#contatti {
 /* Fine Login */
 
 #footer{
-
+padding: 0.5em;
 clear: both;
 background : #222222;
 color: #FFFFFF;
