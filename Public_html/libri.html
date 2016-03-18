@@ -1,5 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 <head>
 	<title>Progetto - Libri</title>
@@ -9,10 +8,7 @@
 	<meta name="description" content="Home page del sito del progetto" />
 	<meta name="keywords" content="libraria Padova" />
 	<meta name="language" content="italian it" />
-	<meta name="author" content="stefano" />
-		<link href="printstyle.css" rel="stylesheet" type="text/css" media="print"/>
-	<link href="mobilestyle.css" rel="stylesheet" type="text/css" media="handheld, screen and (max-width:480px), only
-screen and (max-device-width:480px)"/>
+	<meta name="author" content="" />
 	<link href="style.css" rel="stylesheet" type="text/css" media="all"/>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat%7cMontserrat+Subrayada%7cIndie+Flower" rel="stylesheet" type="text/css" />
 </head>
@@ -28,41 +24,40 @@ screen and (max-device-width:480px)"/>
 		<div id="path">
 			Ti trovi in: Home &gt;&gt; Libri
 		</div>
-		<ul class="menu">
-			<li><a href="home.html" tabindex="0">Home</a></li>
-			<li>Libri</li>
-			<li><a href="contatti.html"  tabindex="1">Contatti</a></li>	
-			<li>Login 
-				<ul class="sub-menu">
-				   <li><a href="registrazione.html" tabindex="2">Registrati</a></li>
-				   <li><a href="login.html" tabindex="3">Entra</a></li>
-				</ul>
-			</li>
-		</ul>
-	<table class="tabella" summary="Descrizioni libri con copertina">
-	  <tr>
-		<td> <img src="immagini/allegiant.jpg" alt="Copertina Allegiant"/></td>
-			<td> <h1>Descrizione:</h1>
+		<div id="menu">
+			<ul>
+				<li><a href="home.html" tabindex="0">Home</a></li>
+				<li>Libri</li>
+				<li><a href="contatti.html"  tabindex="1">Contatti</a></li>	
+				<li><a href="registrazione.html" tabindex="2">Registrati</a></li>
+				<li><a href="login.html" tabindex="3">Entra</a></li>
+			</ul>
+		</div>
+		<div id="libro">
+			<img class="immagine" src="immagini/allegiant.jpg" alt="Copertina Allegiant"/>
+			<h1>Descrizione:
 			<p> Allegiant è un romanzo di fantascienza per giovani adulti del 2013 di Veronica Roth, terzo libro della serie iniziatasi 
 			con Divergent. È stato pubblicato negli Stati Uniti nell'ottobre 2013, mentre in Italia è uscito il 18 marzo 2014.</p>
 			<p>A differenza dei due romanzi precedenti, questo si caratterizza per l'alternanza di capitoli seguenti il punto di vista 
 			di Tris o di Tobias, mantenendo tale impostazione fin quasi alla fine.</p>
 			<h2>Prezzo:</h2>
 			16,72 &euro;
-			<p><a href = "ebook/Allegiant.pdf"> Scarica Allegiant.pdf </a>(1,56 MB)</p></td>
-			<td> <img src="immagini/insurgent.jpg" alt="Copertina Insurgent" /> </td>
-			<td> <h1>Descrizione:</h1>
+			<p><a href = "ebook/Allegiant.pdf"> Scarica Allegiant.pdf </a>(1,56 MB)</p>
+		</div>
+		<div id="libro">
+			<img src="immagini/insurgent.jpg" alt="Copertina Insurgent" />
+			<h1>Descrizione:</h1>
 			<p> Insurgent è un romanzo di fantascienza distopica per giovani adulti del 2012 di Veronica Roth, secondo libro della 
 			serie iniziata con Divergent. È stato pubblicato negli Stati Uniti il 1º maggio 2012 e in Italia, per la De Agostini, 
 			il 30 novembre 2013. </p>
 			<p>Il romanzo riparte esattamente da dove si era interrotto l'ultimo capitolo di Divergent.</p>
 			<h2>Prezzo:</h2>
 			10,71 &euro; 
-			<p><a href = "ebook/Insurgent.pdf"> Scarica Insurgent.pdf </a> (2,02 MB)</p></td>
-		</tr>
-		<tr>
-		<td> <img src="immagini/Divergent.jpg" alt="Copertina Divergent"/></td>
-			<td> <h1>Descrizione:</h1>
+			<p><a href = "ebook/Insurgent.pdf"> Scarica Insurgent.pdf </a> (2,02 MB)</p>
+		</div>
+		<div id="libro">
+			<img src="immagini/Divergent.jpg" alt="Copertina Divergent"/>
+			<h1>Descrizione:</h1>
 			<p> Divergent è un romanzo di fantascienza per ragazzi del 2011 di Veronica Roth, primo capitolo dell'omonima
 			trilogia. Pubblicato in America il 3 maggio 2011, è uscito in Italia per la De Agostini il 22 marzo 2012.</p>
 			<p>Il romanzo è una distopia per ragazzi ambientata in un futuro non specificato in cui gli esseri umani hanno 
@@ -70,15 +65,8 @@ screen and (max-device-width:480px)"/>
 			proprie naturali inclinazioni.</p>
 			<h2>Prezzo:</h2>
 			25,07 &euro;
-			<p><a href = "ebook/Divergent.pdf"> Scarica Divergent.pdf </a>(1,31 MB)</p></td>
-			<td> <img src="immagini/" alt="Copertina libro"/> </td>
-			<td> <h1>Descrizione:</h1>
-			<p> </p>
-			<h2>Prezzo:</h2>
-			 &euro; 
-			<p><a href = "ebook/"> Scarica </a> (2,02 MB)</p></td>
-		</tr>
-	</table>
+			<p><a href = "ebook/Divergent.pdf"> Scarica Divergent.pdf </a>(1,31 MB)</p>
+		</div>
 	<div id="footer">
 	via ugo bassi libreria libronline
 	</div>
