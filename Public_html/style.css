@@ -1,0 +1,185 @@
+*{
+padding: 0em;
+margin: 0em;
+}
+
+#logo{ 
+display:block; 
+float:left; 
+width:10%; 
+/*height:10em;*/
+background-image: url(immagini/logo.jpg);
+background-repeat:no-repeat; 
+margin:1em;
+margin-left:1.5em; 
+padding:1.0em; 
+padding-bottom:0.5em;
+}
+
+.capo{ 
+display:block; 
+}
+
+#descrizione{
+	text-align:center;
+	position:relative;
+}
+
+#path{
+padding: 0.5em;
+margin: 0em;
+background-color: #222222;
+color: #FFFFFF;
+text-align: left;
+padding-left: 1em;
+}
+#menu ul{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	width:10%;
+	text-align: center;
+	float:left;
+}
+
+#menu ul li{
+	position:relative;
+	border:1px solid;
+	color:#000000;
+}
+
+/*#menu  li ul{
+	position:absolute;
+	left:20%;
+	top:0;
+	display:none;
+}*/
+
+#menu ul li a{
+	display:block;
+	text-decoration:none;
+	color:black;
+	background: -webkit-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -webkit-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -moz-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -o-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	background: -ms-linear-gradient(top, #f1f1f1 50%, #e1e1e1 51%, #f6f6f6 100%);
+	padding:5%;
+}
+
+#menu li:hover ul{
+display:block;
+}
+
+/* libri*/
+
+#contenitore{
+	margin-left:10%;
+	margin-top:1%;
+	position:relative;
+}
+
+#libro{
+	margin-left:1%;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid; 
+	border-color: black;
+	display:table;
+	padding:1%;
+	width:46.5%;
+	float:left;
+	/*padding-top:2%;
+	padding-left:20%;
+	padding-right:20%;*/
+}
+
+.immagine{
+	float:left;
+	padding-right:1%;
+	}
+
+
+/* fine libri*/
+
+/* Contatti  */
+
+div#contatti {
+    width: 60%;
+    height: 60%;
+	margin:0 auto;
+	padding-bottom:1%;
+}
+
+.info{
+	position:relative;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid; 
+	border-color: black;
+	padding-left:3%;
+	padding-right:3%;
+	margin-bottom:1%;
+	margin-top:8%;	
+	text-align:center;
+	padding-left:3%;
+	padding-right:3%;
+	padding-top:1%;
+}
+
+.form{
+	position:relative;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid; 
+	border-color: black;
+	padding-left:3%;
+	padding-right:3%;
+	padding-top:1%;
+}
+
+.form_interna{
+	padding-left:3%;
+	padding-right:3%;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+
+/* fine Contatti */
+
+/* Registrazione */
+
+#centra{
+	padding-left:30%;
+	padding-right:30%;
+	margin-bottom:1%;
+	margin-top:5%;
+}
+
+/* fine registrazione*/
+
+/* Login */
+
+#login{
+	margin-top:8%;
+	margin-left:30%;
+	margin-right:30%;
+	position:relative;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid; 
+	border-color: black;
+	padding-left:10%;
+	padding-right:20%;
+	padding-top:1%;
+	padding-bottom:1%;
+	margin-bottom:1%;
+}
+
+/* Fine Login */
+
+#footer{
+padding: 0.5em;
+clear: both;
+background : #222222;
+color: #FFFFFF;
+text-align: center;
+
+}
