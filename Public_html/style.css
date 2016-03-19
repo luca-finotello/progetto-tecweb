@@ -103,6 +103,28 @@ display:block;
 
 /* Contatti  */
 
+#invioMail label{
+display:block;
+width:98%;
+margin-top:.2em;
+margin-left:2%;
+}
+
+#invioMail textarea{
+width:90%;
+margin-left:5%;
+}
+
+#invioMail input{
+width:60%;
+margin-left:5%;
+}
+
+#invioMail #submit{
+width:5em;
+float:right;
+}
+
 div#contatti {
     width: 60%;
     height: 60%;
