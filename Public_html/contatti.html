@@ -6,11 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta name="title" content="" />
 	<meta name="description" content="Home page del sito del progetto" />
-	<meta name="keywords" content="libraria Padova" />
+	<meta name="keywords" content="libreria Padova" />
 	<meta name="language" content="italian it" />
 	<meta name="author" content="" />
 	<link href="style.css" rel="stylesheet" type="text/css" media="all"/>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat%7cMontserrat+Subrayada%7cIndie+Flower" rel="stylesheet" type="text/css" />
 </head>
 <body>
 	<div id="header">
@@ -40,21 +39,16 @@
 		   <span class="capo">Telefono: 049 123456 </span>
 		   <span class="capo">E-mail: libronline@gmail.com </span></p>
 		</div>
-		<div class="form">
-			<h1>Invio posta</h1>
-			 <div class="form_interna">
-				<form onsubmit="return Email();" action="mailto:libronline@gmail.com" method="post">
-					<p><span class="capo">Email:</span>
-					<span class="capo"><input type="text" size="20" title="email" name="email"/> </span>
-					<span class="capo">Oggetto:</span>
-					<span class="capo"><input type="text" size="20" title="oggetto" name="oggetto"/> </span>
-					<span class="capo">Messaggio:</span>
-					<span class="capo"><textarea title="messaggio" name="messaggio" rows="10" cols="60"></textarea></span>
-					<span class="capo"><input type="submit" value="Invia"/></span></p>
-				</form>
-			 </div>
-		</div>
-		</div>
+		
+		<form onsubmit="return Email();" id='invioMail' action="mailto:libronline@gmail.com" method="post">
+			<fieldset><legend>Invio mail</legend>
+				<label for='email'>Email:</label><input type='text' id='email' name='email'/>
+				<label for='oggetto'>Oggetto:</label><input type='text' id='oggetto' name='oggetto'/>
+				<label for='messaggio'>Messaggio:</label><textarea name='messaggio' id='messaggio' rows='15' cols='30'></textarea>
+				<input type='submit' name='submit' id='submit' value='Invia'/>
+			</fieldset>
+		</form>
+	</div>
 	<div id="footer">
 	via ugo bassi libreria libronline
 	</div>
