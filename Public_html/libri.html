@@ -35,6 +35,27 @@
 		<div id="path">
 			Ti trovi in: <a href="index.html" xml:lang="en">Home</a> » Libri
 		</div>
+		
+		<div id="ricerca">
+			<form id="" action="#" method="post" onsubmit="return cerca();">
+				<fieldset>
+					<legend>Ricerca</legend>
+					<label id="titolo"  for="titolo">cerca titolo:</label>
+					<input type="text" name="titolo" id="titolo" onblur="#" />
+					
+					<label id="autore" for="autore">cerca autore:</label>
+					<input type="text" name="autore" id="autore" onblur="#" />
+				
+					<label id="genere" for="genere">cerca genere:</label>
+					<input type="text" name="genere" id="genere" onblur="#" />
+												
+					<input type="submit" name="submit" id="submit" value="Cerca"/>
+					<input type="reset" name="reset" id="reset" value="Reset"/>
+				</fieldset>		
+			</form>
+		</div>
+		
+		
 		<div id="libro">
 			<img class="immagini" src="immagini/allegiant.jpg" alt="Copertina Allegiant"/>
 			<h1>Descrizione:</h1>
