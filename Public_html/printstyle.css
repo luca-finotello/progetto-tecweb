@@ -13,6 +13,7 @@ display: none;
 
 }
 
+
 /* fine parte condivisa tra tutte le pagine*/
 
 
@@ -22,6 +23,12 @@ display: none;
 
 display: none;
 
+}
+
+.contenitore-img .immagine a{
+	
+
+display: none;
 }
 
 /*fine home*/
@@ -40,11 +47,6 @@ display: none;
 
 /* inizio libri */
 
-.tabella{
-
-display: none;
-
-}
 
 #ricerca form{
 
@@ -53,6 +55,12 @@ display: none;
 }
 
 .libro img{
+
+display: none;
+
+}
+
+.libro a{
 
 display: none;
 
@@ -78,6 +86,12 @@ display: none;
 
 
 /* inizio contatti */
+
+.capo{
+
+display: block;
+
+}
 
 #contatti form{
 
