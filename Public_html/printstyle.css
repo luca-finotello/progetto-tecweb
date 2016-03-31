@@ -1,10 +1,10 @@
 
 /* parte condivisa tra tutte le pagine */ 
 
-.menu{
+#menu ul{
 display: none;
-
 }
+
 
 
 #path{
@@ -18,7 +18,7 @@ display: none;
 
 /* inizio home */
 
-#libro img{
+.contenitore-img .immagine img {
 
 display: none;
 
@@ -46,6 +46,18 @@ display: none;
 
 }
 
+#ricerca form{
+
+display: none;
+
+}
+
+.libro img{
+
+display: none;
+
+}
+
 /* fine libri */
 
 /* inizio registrazione */
@@ -56,14 +68,22 @@ display: none;
 
 }
 
-/* fine registrazione */
-
-
-/* condivisa tra contatti e registrazione */
-
-.form_interna{
+#centra .form_interna form{
 
 display: none;
 
-/* fine parte condivisa tra contatti e registrazione */
 }
+
+/* fine registrazione */
+
+
+/* inizio contatti */
+
+#contatti form{
+
+display: none;
+
+}
+
+/* fine contatti */
+
