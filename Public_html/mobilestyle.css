@@ -1,14 +1,47 @@
-#header{
-background-color: yellow;
 
-}
+/*parte condivisa tra tutte le pagine */
+
 
 #logo{
 
 display: none;
 }
 
+#header {
+
+padding-bottom : 2em;
+border-bottom:1em solid #191970;
+
+}
+
+
+
+#header h1{
+
+font-size :2em;
+text-align : center ;
+}
+
+
 .menu{
 display: none;
 
 }
+
+#contenuto{
+
+clear: both;
+display :block;
+
+
+}
+
+/* inizio index */
+
+.immagine{
+
+clear:both;
+display :block;
+width : 100%;
+}
+
