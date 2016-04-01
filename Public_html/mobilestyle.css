@@ -1,4 +1,6 @@
 
+
+
 /*parte condivisa tra tutte le pagine */
 
 
@@ -23,16 +25,12 @@ text-align : center ;
 }
 
 
-.menu{
-display: none;
-
-}
 
 #contenuto{
 
 clear: both;
 display :block;
-
+width: 100%;
 
 }
 
@@ -50,18 +48,68 @@ width : 100%;
 
 /* inizio libri*/
 
+#ciao{
+
+margin-bottom: 1em; 
+margin-top:1em;
+
+}
+
+#ciao fieldset{
+
+padding-top: 1em;
+padding-bottom: 1em;
+
+}
+
+#titolo{
+
+width: 70%;
+
+}
+
+#submit, #reset{
+
+margin-top: 1em;
+width: 48%;
+height: 2em;
+}
+
+
+
 /* fine libri*/
 
 /* inizio registrazione*/
+
+
+#centra{
+
+text-align: center;
+padding-left: 0em;
+padding-right: 0em;
+
+}
+
 
 /* fine registrazione*/
 
 
 /* inizio login*/
 
+#login{
+margin: 0;
+padding-top: 1.5em;
+padding-bottom: 1.5em;
+margin-top:1em; 
+margin-bottom: 1em;
+}
+
 /* fine login*/
 
 
 /* inizio contatti*/
+
+
+
 
 /* fine contatti*/
