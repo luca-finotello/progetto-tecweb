@@ -97,8 +97,7 @@ h3{
 .immagine{
 	float:left;
 	display:inline;
-	width:16.7%;
-	padding:1%;
+	padding:2%;
 	background-color:white;
 	border:1px solid #87CEEB;
 	margin:0.5%;
