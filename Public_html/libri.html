@@ -9,7 +9,7 @@
 	<meta name="description" content="Home page del sito del progetto" />
 	<meta name="keywords" content="libraria Padova" />
 	<meta name="language" content="italian it" />
-	<meta name="author" content="" />
+	<meta name="author" content="stefano" />
 	<link href="style.css" rel="stylesheet" type="text/css" media="screen"/>
 	<link rel="stylesheet" href="printstyle.css" type="text/css" media="print"/>	
 	<link rel="stylesheet" href="mobilestyle.css" type="text/css" media="handheld, screen and (max-width:480px), only screen and (max-device-width:480px)"/>
@@ -41,15 +41,16 @@
 			<form id="ciao" action="#" method="post" onsubmit="return cerca();">
 				<fieldset>
 					<legend>Ricerca</legend>
-					<label id="Rtitolo"  for="titolo">Titolo:</label>
+					<span class="capo"><label id="Rtitolo"  for="titolo">Titolo:</label>
 					<input type="text" name="titolo" id="titolo" onblur="#" />
-					
-					<label id="Rautore" for="autore">Autore:</label>
+					</span>
+					<span class="capo"><label id="Rautore" for="autore">Autore:</label>
 					<input type="text" name="autore" id="autore" onblur="#" />
-				
+				</span>
+				<span class="capo">
 					<label id="Rgenere" for="genere">Genere:</label>
 					<input type="text" name="genere" id="genere" onblur="#" />
-												
+										</span>		
 					<input type="submit" name="submit" id="submit" value="Cerca"/>
 					<input type="reset" name="reset" id="reset" value="Reset"/>
 				</fieldset>		
@@ -92,3 +93,4 @@
 	</div>
 </body>
 </html>
+
