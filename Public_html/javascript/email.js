@@ -1,9 +1,10 @@
 function Email() {
   var email=document.modulo.email.value;
+  var email_check = email.search(/^([\w\-\+\.]+)@([\w\-\+\.]+).([\w\-\+\.]+)$/);
   var oggetto = document.modulo.oggetto.value;
   var messaggio = document.modulo.messaggio.value;
    
-  if ((email == "") || (email == "undefined")) {
+  if (email_check != 0) {
    alert("Inserire un indirizzo email corretto.");
    document.modulo.email.focus();
 }
