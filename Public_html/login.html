@@ -3,17 +3,19 @@
 <head>
 	<title>Login - Libronline</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta name="title" content="" />
 	<meta name="description" content="Home page del sito del progetto" />
 	<meta name="keywords" content="libraria Padova" />
 	<meta name="language" content="italian it" />
-	<meta name="author" content="" />
+	<meta name="author" content="root" />
 	<link href="style.css" rel="stylesheet" type="text/css" media="screen"/>
 	<link rel="stylesheet" href="printstyle.css" type="text/css" media="print"/>	
 	<link rel="stylesheet" href="mobilestyle.css" type="text/css" media="handheld, screen and (max-width:480px), only screen and (max-device-width:480px)"/>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat%7cMontserrat+Subrayada%7cIndie+Flower" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Fredoka+One%7cShadows+Into+Light+Two%7cCherry+Cream+Soda%7cCinzel+Decorative" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="javascript/check_login.js"></script>
 </head>
 <body>
 	<div id="header">
@@ -37,9 +39,9 @@
 		</div>
 		<div id="login">
 			<h1>Accedi:</h1>
-				<form action="" method="post">
-					<p><span class="capo"> Username: <input name="username" title="username" type="text"/></span>
-					<span class="capo"> Password: <input name="password" title="password" type="password"/></span>
+				<form action="" method="post" onsubmit="check_login()">
+					<p><span class="capo"> Username: <input name="username" title="username" type="text" id="username"/></span>
+					<span class="capo"> Password: <input name="password" title="password" type="password" id="password"/></span>
 					<input type="submit" title="login" value="Login" name="Login"/>
 					<input type="reset" title="annulla" value="annulla" name="annulla"/></p>
 				</form>
