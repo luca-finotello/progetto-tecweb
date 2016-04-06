@@ -3,17 +3,19 @@
 <head>
 	<title>Registrazione - Libronline</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta name="title" content="" />
 	<meta name="description" content="Home page del sito del progetto" />
 	<meta name="keywords" content="libraria Padova" />
 	<meta name="language" content="italian it" />
-	<meta name="author" content="" />
+	<meta name="author" content="root" />
 	<link href="style.css" rel="stylesheet" type="text/css" media="screen"/>
 	<link rel="stylesheet" href="printstyle.css" type="text/css" media="print"/>	
 	<link rel="stylesheet" href="mobilestyle.css" type="text/css" media="handheld, screen and (max-width:480px), only screen and (max-device-width:480px)"/>
 	<link href="https://fonts.googleapis.com/css?family=Montserrat%7cMontserrat+Subrayada%7cIndie+Flower" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Fredoka+One%7cShadows+Into+Light+Two%7cCherry+Cream+Soda%7cCinzel+Decorative" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="javascript/check_registrazione.js"></script>
 </head>
 <body>
 	<div id="header">
@@ -38,13 +40,13 @@
 			<div id="centra">
 				<h1>Iscriviti:</h1>
 				<div class="form_interna">
-				<form  action="" method="post">
+				<form  action="" method="post" onsubmit="return check_registrazione()">
 				 <fieldset>
 				  <legend> Registrazione </legend>
 					<p><span class="capo"> Nome: </span>
-					<input name="nome" title="nome" type="text"/>
+					<input name="nome" title="nome" type="text" id="nome"/>
 					<span class="capo"> Cognome:</span>
-					<input name="cognome" title="cognome" type="text"/>
+					<input name="cognome" title="cognome" type="text" id="cognome"/>
 					<span class="capo"> Data di nascita:</span>
 					
 					<select name="giorno" id="giorno">
@@ -215,13 +217,13 @@
 					</select>
 					
 					<span class="capo"> E-mail:</span>
-					<input name="e_mail" title="e-mail" type="text"/>
+					<input name="e_mail" title="e-mail" type="text" id="email"/>
 					<span class="capo"> Username:</span>
-					<input name="username" title="username" type="text"/>
+					<input name="username" title="username" type="text" id="username"/>
 					<span class="capo"> Password:</span>
-					<input name="password" title="password" type="password"/>
+					<input name="password" title="password" type="password" id="password"/>
 					<span class="capo"> Reinserisci Password:</span>
-					<input name="password" title="password" type="password"/></p>
+					<input name="password" title="password" type="password" id="repeat_password"/></p>
 					<input type="submit" title="conferma" value="Conferma" name="conferma"/>
 					<input type="reset" title="annulla" value="Annulla" name="annulla"/>
 				 </fieldset>
